@@ -1,0 +1,6 @@
+*{
+    /*para borrar todos los estilos por defecto*/
+    box-sizing: border-box;
+    margin:0%;
+    padding: 0%;
+}

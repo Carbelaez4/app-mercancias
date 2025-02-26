@@ -1,8 +1,8 @@
 import './PanelControl.css';
 const PanelControl =() =>{
 return (
-    <section>
-        <aside>
+    <section className="panel-control">
+        <aside className="panel-control-aside">
             <div>
                 <img src="" alt ="Logo"/>
             </div>
@@ -15,20 +15,20 @@ return (
                 </ul>
             </nav>
         </aside>
-        <section>
-            <div>
+        <section className="panel-control-section">
+            <div className="panel-control-card">
                 <section></section>
                 <section>
                     <p>Ver</p>
                 </section>
             </div>
-            <div>
+            <div className="panel-control-card">
                 <section></section>
                 <section>
                     <p>Ver</p>
                 </section>
             </div>
-            <div>
+            <div className="panel-control-card">
                 <section></section>
                 <section>
                     <p>Ver</p>
