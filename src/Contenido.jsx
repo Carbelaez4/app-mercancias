@@ -1,11 +1,15 @@
 import Card from "./Card"
+import { usuarios } from "./database"
 
-function Contenido(){
+
+function Contenido({}){
     return (
         <section className="panel-control-section">
-            <Card />
-            <Card />
-            <Card />
+            {
+                usuarios.map((usuario)=> {
+                    return <Card usuario={usuario}/>
+                 })
+            }
         </section>
     )
 }
